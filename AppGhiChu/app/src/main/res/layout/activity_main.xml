@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:paddingLeft="20dp"
+    tools:context=".activity.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="Ứng Dụng Ghi Chú"
+                android:textColor="#76B1F6"
+                android:textSize="18sp" />
+
+            <TextView
+                fontPath="fonts/nunito_extra_bold.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="NoteAPP"
+                android:textColor="#2A87D2"
+                android:textSize="28sp"
+                tools:ignore="MissingPrefix" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/calendar"
+            android:layout_width="47dp"
+            android:layout_height="43dp"
+            android:layout_gravity="right|center"
+            android:background="@drawable/calendar" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/noDataImage"
+                android:layout_width="282dp"
+                android:layout_height="318dp"
+                android:layout_gravity="center" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/taskRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="566dp" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/addTask"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/ic_add_black_24dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/product_sans_bold"
+            android:paddingTop="10dp"
+            android:text="create "
+            android:textAlignment="center"
+            android:textColor="#5EA4DB"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
