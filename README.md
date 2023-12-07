@@ -1,8 +1,8 @@
 # Event notification application on the phone
-### 1 Project purpose: 
-`create an application that can notify users of the correct date, time and time when they need to remember certain events, using java language and AndroidStudio environment to carry out this project within 5 hours`
+### 1 PROẸCT PURPOSE 
+> create an application that can notify users of the correct date, time and time when they need to remember certain events, using java language and AndroidStudio environment to carry out this project within 5 hours
 
-### 2 Environment
+### 2 PROGRAMMING ENVIRONMENT
 - Android Studio: https://developer.android.com/studio
 - Database: Sqlite
 - Sound & pict: https://www.flaticon.com/free-icon/fl_713136
