@@ -4,7 +4,7 @@
 
 ### 2 PROGRAMMING ENVIRONMENT
 - Android Studio: https://developer.android.com/studio
-- Database: Sqlite
+- Database: https://www.sqlite.org/index.html
 - Sound & pict: https://www.flaticon.com/free-icon/fl_713136
 
 ## 3 PERFORM
